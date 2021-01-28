@@ -67,3 +67,59 @@ body {
 .review-box.mr70 {
 	margin-left: 70px;
 }
+.review-card-container {
+	background: var(--very-dark-magenta);
+	width: calc(30vw - 40px);
+	height: 200px;
+padding: 10px 20px;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+#comments {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.top-section img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+.top-section {
+	display: flex;
+	align-items: center;
+}
+.name-type-container {
+	margin-left: 20px;
+}
+.reviewer-name {
+	color: var(--white);
+font-size: 12px;
+margin: 0 0 5px;
+}
+
+.reviewer-type {
+	color: var(--soft-pink);
+font-size: 12px;
+margin: 0;
+
+}
+
+.description {
+	color: var(--white);
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 0;
+	text-align: justify;
+}
+
+.m-t-20 {
+	margin-top: 40px;
+}
+.m-t-40 {
+	margin-top: 80px
+}
